@@ -1,0 +1,5 @@
+summon marker ~ ~5 ~ {Tags:["gb.temp.block_check"]}
+data modify entity @e[type=marker,tag=gb.temp.block_check,limit=1,sort=nearest] Pos set from block ~ ~ ~ Items[1].tag.GoBlocks.Data
+execute unless entity @e[type=marker,tag=gb.temp.block_check] run tellraw @a ["",{"text":"[","color":"gold"},{"text":"GoBlocks","color":"yellow"},{"text":"]","color":"gold"},{"text":" Fatal","color":"dark_red"},{"text":" code error","color":"dark_red"},{"text":" at","color":"red"},{"text":" "},{"score":{"name":".x","objective":"gb.misc"},"color":"yellow"},{"text":", ","color":"red"},{"score":{"name":".y","objective":"gb.misc"},"color":"yellow"},{"text":",","color":"red"},{"text":" "},{"score":{"name":".z","objective":"gb.misc"},"color":"yellow"},{"text":": Not enough inputs","color":"red"}]
+execute at @e[type=marker,tag=gb.temp.block_check] if block ~ ~ ~ #gb:1.18-every-block[powered=true] run execute at @s run function gb:zpriv/runner/interpreter/if/hath_decide/aye
+execute at @e[type=marker,tag=gb.temp.block_check] if block ~ ~ ~ #gb:1.18-every-block[powered=false] run execute at @s run function gb:zpriv/runner/interpreter/if/hath_decide/nay

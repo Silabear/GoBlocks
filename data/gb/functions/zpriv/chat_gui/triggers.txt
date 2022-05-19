@@ -1,0 +1,25 @@
+1 - Nothing
+2 - Player Event Main
+3 - On Damage Event
+4 - Communication Action
+5 - Movement Actions
+6 - Teleport To
+7 - Launch Up
+8 - Send Message
+9 - Inventory Actions
+10 - Give Items 
+11 - Clear Inventory 
+12 - Set Armour 
+13 - Set Hotbar 
+14 - Set Inventory 
+15 - Function Sumbit
+16 - Show Title
+17 - Show Action Bar
+18 - Clear Chat
+19 - Call Function Sumbit
+20 - Property Equals <<
+21 - Is Powered <<
+22 - Growth Stage Equals <<
+23 - Note Equals <<
+24 - Is Waterlogged <<
+25 - Is Open <<

@@ -1,0 +1,2 @@
+title @a[tag=gb.selected] subtitle {"nbt":"Items[1].tag.display.Name","block": "~ ~1 ~","interpret": true}
+title @a[tag=gb.selected] title {"nbt":"Items[0].tag.display.Name","block": "~ ~1 ~","interpret": true}
