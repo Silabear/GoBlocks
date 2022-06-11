@@ -17,3 +17,5 @@ data modify block 0 0 0 Items[0].tag.GoBlocks.Data append from entity @e[type=ma
 item replace entity @s weapon.mainhand from block 0 0 0 container.0
 
 setblock 0 0 0 stone
+
+kill @s
