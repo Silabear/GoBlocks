@@ -1,0 +1,15 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": [
+        {
+          "nbt": "String",
+          "storage": "minecraft:test",
+          "separator": "",
+          "interpret": true
+        }
+      ]
+    }
+  ]
+  

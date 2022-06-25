@@ -1,0 +1,10 @@
+{
+  "function":"set_name",
+  "entity":"this",
+  "name":{
+    "color":"dark_green",
+    "nbt":"SelectedItem.tag.display.Name",
+    "entity":"@s",
+    "interpret":true
+  }
+}

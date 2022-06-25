@@ -1,0 +1,1 @@
+tellraw @a[tag=gb.selected] {"nbt":"Items[0].tag.display.Name","block": "~ ~1 ~","interpret": true}
