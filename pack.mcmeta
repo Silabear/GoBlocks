@@ -1,6 +1,10 @@
 {
     "pack":{
         "description":"save me plz",
+<<<<<<< HEAD
         "pack_format":10
+=======
+        "pack_format":9
+>>>>>>> cadbf8e7129f5ab976e812f53e15897d1fe37277
     }
 }

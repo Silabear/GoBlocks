@@ -18,4 +18,8 @@ item replace entity @s weapon.mainhand from block 0 0 0 container.0
 
 setblock 0 0 0 stone
 
+<<<<<<< HEAD
 kill @e[type=marker,tag=gb.temp.pos,limit=1,sort=nearest]
+=======
+kill @s
+>>>>>>> cadbf8e7129f5ab976e812f53e15897d1fe37277

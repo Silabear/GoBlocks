@@ -13,12 +13,16 @@ give @s drowned_spawn_egg{display:{Name:'{"text":"Function","color":"dark_aqua",
 
 give @s turtle_spawn_egg{display:{Name:'{"text":"Call Function","color":"dark_aqua","italic":false}',Lore:['{"text":"This will run a defined function block","color":"green","italic":false}','{"text": "and then continue this code","color": "green","italic": false}','{"text":"Right click the sign for settings","color":"gray","italic":false}','{"text":" "}','{"text":"FUNCTION BLOCK","color":"dark_aqua","italic":false}']},EntityTag:{id:"minecraft:marker",Tags:["gb.new.call_function","gb.new"]},HideFlags:127} 1
 
+<<<<<<< HEAD
 # Variables
 give @s donkey_spawn_egg{display:{Name:'{"text":"Variable Control","color":"dark_aqua","italic":false}',Lore:['{"text":"This block manages everything related","color":"green","italic":false}','{"text": "to variables (setting, clearing) etc","color": "green","italic": false}','{"text":"Right click the sign for settings","color":"gray","italic":false}','{"text":" "}','{"text":"FUNCTION BLOCK","color":"dark_aqua","italic":false}']},EntityTag:{id:"minecraft:marker",Tags:["gb.new.variable_control","gb.new"]},HideFlags:127} 1
 
 # Values
 give @p paper{display:{Name:'{"text":"Text","color":"blue","italic":false}',Lore:['{"text":"This can store coloured text values","color":"green","italic":false}','{"text":" "}','{"text":"To set","color":"gold","italic":false,"underlined":true}','{"text":"Rename this in an anvil.","color":"gold","italic":false}','{"text": "You can then hold it and run /trigger gb.style","color":"gold","italic":false}','{"text":"to change the colour and style.","color":"gold","italic":false}']},GoBlocks:{Value:"text"}} 1
 
+=======
+# Values
+>>>>>>> cadbf8e7129f5ab976e812f53e15897d1fe37277
 give @p snowball{display:{Name:'{"text":"Location","color":"blue","italic":false}',Lore:['{"text":"This represents a block location in the world","color":"green","italic":false}','{"text":" ","color":"gray","italic":false}','{"text":"To set:","color":"gold","italic":false,"underlined":true}','[{"text":"- Look at a block and then ","color":"gold","italic":false},{"text":"Right Click ","color":"yellow","italic":false}]','{"text":"to set it to that block\'s positon","color":"gold","italic":false}','[{"text":"- ","color":"gold","italic":false},{"text":"Drop ","color":"yellow","italic":false},{"text":"the item to set it to your ","color":"gold","italic":false}]','{"text":"current position","color":"gold","italic":false}']},GoBlocks:{Value:"location"}} 1
 
 give @p scute{display:{Name:'{"text":"Number","color":"blue","italic":false}',Lore:['{"text":"This represents a whole number","color":"green","italic":false}','{"text":" "}','{"text":"To set","color":"gold","italic":false,"underlined":true}','[{"text":"- Hold this item and run ","color":"gold","italic":false},{"text":"/trigger gb.number set (value)","color":"yellow","italic":false}]']},GoBlocks:{Value:"number"}} 1
