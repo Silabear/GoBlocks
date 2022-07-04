@@ -1,4 +1,6 @@
 ![image](https://user-images.githubusercontent.com/56885288/177201296-9e95bf9d-3ef0-43f9-a5ca-f8cc457e78e1.png)
+
+# GoBlocks
 This is a project designed to make coding and making games in Minecraft much easier for beginners. Using in-game blocks and items, you can use a block based coding system to create experiences.
 
 Inspired by Scratch, which is a popular block coding program. This brings it into a more practical environment and can be used in Minecraft to create fun games or systems. 
