@@ -1,0 +1,1 @@
+execute if entity @s[tag=gb.type.is_standing_on_block] if score .error gb.runner matches 0 run function gb:zpriv/runner/interpreter/if/player/is_standing_on_block

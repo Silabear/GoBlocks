@@ -12,7 +12,7 @@ execute if entity @a[tag=gb.temp,scores={gb.chatgui=17}] run function gb:zpriv/c
 execute if entity @a[tag=gb.temp,scores={gb.chatgui=18}] run function gb:zpriv/chat_gui/player_action/hit/chat/clear_chat
 execute if entity @s[tag=gb.block.function] run function gb:zpriv/chat_gui/function/submit
 execute if entity @s[tag=gb.block.call_function] run function gb:zpriv/chat_gui/call_function/submit
-execute if entity @a[tag=gb.temp,scores={gb.chatgui=21}] run function gb:zpriv/chat_gui/if_block/property/is_powered
+execute if entity @a[tag=gb.temp,scores={gb.chatgui=21}] run function gb:zpriv/chat_gui/if_player/locational/is_standing_on_block
 execute if entity @a[tag=gb.temp,scores={gb.chatgui=22}] run function gb:zpriv/chat_gui/if_block/property/growth_stage_equals
 execute if entity @a[tag=gb.temp,scores={gb.chatgui=23}] run function gb:zpriv/chat_gui/if_block/property/note_equals
 execute if entity @a[tag=gb.temp,scores={gb.chatgui=24}] run function gb:zpriv/chat_gui/if_block/property/is_waterlogged
