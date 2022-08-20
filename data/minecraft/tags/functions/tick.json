@@ -1,5 +1,6 @@
 {
     "values":[
-        "gb:main"
+        "gb:main",
+        "gb:code_checks"
     ]
 }

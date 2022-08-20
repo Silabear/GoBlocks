@@ -6,10 +6,6 @@
         }
     },
     "rewards": {
-<<<<<<< HEAD
         "function": "gb:zpriv/runner/event/first_join"
-=======
-        "function": "gb:zpriv/runner/event/first_time"
->>>>>>> cadbf8e7129f5ab976e812f53e15897d1fe37277
     }
 }

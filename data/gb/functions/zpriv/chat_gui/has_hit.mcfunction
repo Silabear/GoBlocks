@@ -16,9 +16,6 @@ execute if entity @a[tag=gb.temp,scores={gb.chatgui=21}] run function gb:zpriv/c
 execute if entity @a[tag=gb.temp,scores={gb.chatgui=22}] run function gb:zpriv/chat_gui/if_block/property/growth_stage_equals
 execute if entity @a[tag=gb.temp,scores={gb.chatgui=23}] run function gb:zpriv/chat_gui/if_block/property/note_equals
 execute if entity @a[tag=gb.temp,scores={gb.chatgui=24}] run function gb:zpriv/chat_gui/if_block/property/is_waterlogged
-<<<<<<< HEAD
 execute if entity @a[tag=gb.temp,scores={gb.chatgui=25}] run function gb:zpriv/chat_gui/if_block/property/is_open
 execute if entity @a[tag=gb.temp,scores={gb.chatgui=27}] run function gb:zpriv/chat_gui/player_event/hit/on_first_join
-=======
-execute if entity @a[tag=gb.temp,scores={gb.chatgui=25}] run function gb:zpriv/chat_gui/if_block/property/is_open
->>>>>>> cadbf8e7129f5ab976e812f53e15897d1fe37277
+execute if entity @a[tag=gb.temp,scores={gb.chatgui=28}] run function gb:zpriv/chat_gui/player_event/hit/on_tick

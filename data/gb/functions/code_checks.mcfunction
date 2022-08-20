@@ -1,0 +1,1 @@
+execute as @a run function gb:zpriv/runner/event/player_tick

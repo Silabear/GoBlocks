@@ -14,6 +14,9 @@ scoreboard players set @a gb.chatgui 0
 execute as @e[type=marker,tag=gb.new] at @s align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ air run function gb:zpriv/place/place
 execute as @e[type=marker,tag=gb.new] at @s align xyz positioned ~0.5 ~0.5 ~0.5 unless block ~ ~ ~ air run kill @s
 
+execute as @e[type=marker,tag=gb.new_spawn] at @s align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ air run function gb:zpriv/place/place_new
+execute as @e[type=marker,tag=gb.new_spawn] at @s align xyz positioned ~0.5 ~0.5 ~0.5 unless block ~ ~ ~ air run kill @s
+
 # Block Breaking
 execute as @e[type=marker,tag=gb.block,tag=!gb.break.if] at @s run function gb:zpriv/check_destroy
 execute as @e[type=marker,tag=gb.block,tag=gb.break.if] at @s run function gb:zpriv/check_destroy_if
@@ -44,3 +47,5 @@ scoreboard players set @a gb.style 0
 # If End Checking
 execute as @e[type=marker,tag=gb.if_end] at @s unless block ~1 ~ ~ air run function gb:zpriv/move_if
 execute as @e[type=marker,tag=gb.if_end] at @s if block ~3 ~ ~ air run function gb:zpriv/move_if_but_not
+
+# Check if the player is in a location
