@@ -1,4 +1,4 @@
-data merge storage gb:meta {Version:"alpha v1.0"}
+data merge storage gb:meta {Version:"private beta v1.0"}
 scoreboard objectives add gb.raycast dummy
 scoreboard objectives add gb.misc dummy
 scoreboard objectives add gb.runner dummy
