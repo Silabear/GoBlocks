@@ -20,3 +20,9 @@ execute if entity @a[tag=gb.temp,scores={gb.chatgui=28}] run function gb:zpriv/c
 execute if entity @a[tag=gb.temp,scores={gb.chatgui=29}] run function gb:zpriv/chat_gui/if_player/inventory/is_wearing_item
 execute if entity @a[tag=gb.temp,scores={gb.chatgui=30}] run function gb:zpriv/chat_gui/if_player/inventory/has_item_in_slot
 execute if entity @a[tag=gb.temp,scores={gb.chatgui=31}] run function gb:zpriv/chat_gui/if_player/inventory/selected_hotbar_slot_equals
+execute if entity @a[tag=gb.temp,scores={gb.chatgui=31}] run function gb:zpriv/chat_gui/if_player/inventory/selected_hotbar_slot_equals
+execute if entity @a[tag=gb.temp,scores={gb.chatgui=32}] run function gb:zpriv/chat_gui/if_player/status/is_sneaking
+execute if entity @a[tag=gb.temp,scores={gb.chatgui=33}] run function gb:zpriv/chat_gui/if_player/status/is_sprinting
+execute if entity @a[tag=gb.temp,scores={gb.chatgui=34}] run function gb:zpriv/chat_gui/if_player/status/is_swimming
+execute if entity @a[tag=gb.temp,scores={gb.chatgui=35}] run function gb:zpriv/chat_gui/if_player/status/is_on_fire
+execute if entity @a[tag=gb.temp,scores={gb.chatgui=36}] run function gb:zpriv/chat_gui/if_player/status/is_on_ground
