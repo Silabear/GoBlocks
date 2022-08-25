@@ -1,3 +1,7 @@
+# The only important function in the datapack
+# You can remove every other function and this will probably still work
+# ^ don't test that
+
 # Check for required inputs
 scoreboard players set .should_go_on gb.runner 1
 execute if score @s zgb.inputs_required matches 1.. run function gb:zpriv/runner/inputs

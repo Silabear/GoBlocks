@@ -13,9 +13,10 @@ execute if entity @a[tag=gb.temp,scores={gb.chatgui=18}] run function gb:zpriv/c
 execute if entity @s[tag=gb.block.function] run function gb:zpriv/chat_gui/function/submit
 execute if entity @s[tag=gb.block.call_function] run function gb:zpriv/chat_gui/call_function/submit
 execute if entity @a[tag=gb.temp,scores={gb.chatgui=21}] run function gb:zpriv/chat_gui/if_player/locational/is_standing_on_block
-execute if entity @a[tag=gb.temp,scores={gb.chatgui=22}] run function gb:zpriv/chat_gui/if_block/property/growth_stage_equals
-execute if entity @a[tag=gb.temp,scores={gb.chatgui=23}] run function gb:zpriv/chat_gui/if_block/property/note_equals
-execute if entity @a[tag=gb.temp,scores={gb.chatgui=24}] run function gb:zpriv/chat_gui/if_block/property/is_waterlogged
-execute if entity @a[tag=gb.temp,scores={gb.chatgui=25}] run function gb:zpriv/chat_gui/if_block/property/is_open
+execute if entity @a[tag=gb.temp,scores={gb.chatgui=23}] run function gb:zpriv/chat_gui/if_player/locational/is_near_location
+execute if entity @a[tag=gb.temp,scores={gb.chatgui=25}] run function gb:zpriv/chat_gui/if_player/inventory/is_holding_item
 execute if entity @a[tag=gb.temp,scores={gb.chatgui=27}] run function gb:zpriv/chat_gui/player_event/hit/on_first_join
 execute if entity @a[tag=gb.temp,scores={gb.chatgui=28}] run function gb:zpriv/chat_gui/player_event/hit/on_tick
+execute if entity @a[tag=gb.temp,scores={gb.chatgui=29}] run function gb:zpriv/chat_gui/if_player/inventory/is_wearing_item
+execute if entity @a[tag=gb.temp,scores={gb.chatgui=30}] run function gb:zpriv/chat_gui/if_player/inventory/has_item_in_slot
+execute if entity @a[tag=gb.temp,scores={gb.chatgui=31}] run function gb:zpriv/chat_gui/if_player/inventory/selected_hotbar_slot_equals

@@ -19,10 +19,13 @@
 19 - Call Function Sumbit
 20 - Locational
 21 - Is Standing On Block
-22 - 
-23 - 
-24 - 
-25 - 
+22 - Miscellaneous
+23 - Is Near Location
+24 - Inventory
+25 - Is Holding Item
 26 - Game Events
 27 - On First Join
 28 - Player Tick
+29 - Is Wearing Item
+30 - Has Item In Slot
+31 - Selected Hotbar Slot Equals
