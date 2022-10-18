@@ -1,6 +1,6 @@
 {
     "pack":{
-        "description":"save me plz",
+        "description":[{"text":"Go","color":"red"},{"text":"Blocks ","color":"blue"},{"text":"🛡 Public Beta\n","color":"green"},{"text": "⛏ b1.0 | ✔ Stable | ✉ Silabear","color": "dark_gray"}],
         "pack_format":10
     }
 }
