@@ -47,5 +47,3 @@ scoreboard players set @a gb.style 0
 # If End Checking
 execute as @e[type=marker,tag=gb.if_end] at @s unless block ~1 ~ ~ air run function gb:zpriv/move_if
 execute as @e[type=marker,tag=gb.if_end] at @s if block ~3 ~ ~ air run function gb:zpriv/move_if_but_not
-
-# Check if the player is in a location

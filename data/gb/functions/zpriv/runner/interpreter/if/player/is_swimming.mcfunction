@@ -1,2 +1,0 @@
-execute if entity @a[tag=gb.selected,limit=1,predicate=gb:is_swimming] run function gb:zpriv/runner/interpreter/if/hath_decide/aye 
-execute if entity @a[tag=gb.selected,limit=1,predicate=!gb:is_swimming] run function gb:zpriv/runner/interpreter/if/hath_decide/nay 
