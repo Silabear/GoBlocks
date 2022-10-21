@@ -1,4 +1,6 @@
-data merge storage gb:meta {Version:"private beta v1.0"}
+scoreboard objectives add gb.initcheck dummy
+execute store success score .new_install gb.initcheck run scoreboard objectives add gb.version dummy
+function gb:zpriv/version
 scoreboard objectives add gb.raycast dummy
 scoreboard objectives add gb.misc dummy
 scoreboard objectives add gb.runner dummy
@@ -12,6 +14,8 @@ scoreboard objectives add gb.call_function_stuff trigger
 
 scoreboard objectives add gb.event.damage minecraft.custom:minecraft.damage_taken
 scoreboard objectives add gb.event.jump minecraft.custom:minecraft.jump
+scoreboard objectives add gb.event.sneak minecraft.custom:minecraft.sneak_time
+scoreboard objectives add gb.event.sneak.once dummy
 
 schedule function gb:30s 30s
 

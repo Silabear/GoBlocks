@@ -17,7 +17,7 @@
 17 - Show Action Bar
 18 - Clear Chat
 19 - Call Function Sumbit
-. . .
+20 - On Sneak
 26 - Game Events
 27 - On First Join
 28 - Player Tick
