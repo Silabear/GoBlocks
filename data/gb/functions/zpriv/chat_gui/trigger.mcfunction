@@ -15,3 +15,5 @@ execute if score @s gb.chatgui matches 26 run function gb:zpriv/chat_gui/player_
 execute if score @s gb.chatgui matches 27..29 run function gb:zpriv/chat_gui/init_raycast
 execute if score @s gb.chatgui matches 30 run tellraw @s {"text": "Coming Soon","color": "gray"}
 execute if score @s gb.chatgui matches 31..36 run function gb:zpriv/chat_gui/init_raycast
+execute if score @s gb.chatgui matches 37 run function gb:zpriv/chat_gui/player_event/movement_events
+execute if score @s gb.chatgui matches 38..38 run function gb:zpriv/chat_gui/init_raycast

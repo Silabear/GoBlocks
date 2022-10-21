@@ -11,19 +11,13 @@ execute as @a[scores={gb.chatgui=2..}] at @s run function gb:zpriv/chat_gui/trig
 scoreboard players set @a gb.chatgui 0
 
 # Block Spawning
-execute as @e[type=marker,tag=gb.new] at @s align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ air run function gb:zpriv/place/place
-execute as @e[type=marker,tag=gb.new] at @s align xyz positioned ~0.5 ~0.5 ~0.5 unless block ~ ~ ~ air run kill @s
-
-execute as @e[type=marker,tag=gb.new_spawn] at @s align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ air run function gb:zpriv/place/place_new
-execute as @e[type=marker,tag=gb.new_spawn] at @s align xyz positioned ~0.5 ~0.5 ~0.5 unless block ~ ~ ~ air run kill @s
+execute as @e[type=marker,tag=gb.new_spawn] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function gb:zpriv/place/place
 
 # Block Breaking
 execute as @e[type=marker,tag=gb.block,tag=!gb.break.if] at @s run function gb:zpriv/check_destroy
 execute as @e[type=marker,tag=gb.block,tag=gb.break.if] at @s run function gb:zpriv/check_destroy_if
 
 # Events
-execute as @a[scores={gb.event.damage=1..}] run function gb:zpriv/runner/event/take_damage
-scoreboard players reset @a gb.event.damage
 
 # Location Checking
 execute as @e[type=snowball,nbt={Item:{tag:{GoBlocks:{Value:"location"}}}}] at @s run function gb:zpriv/misc/value/location

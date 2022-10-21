@@ -9,7 +9,3 @@ execute if score .LaunchPower gb.runner matches 7 run effect give @a[tag=gb.sele
 execute if score .LaunchPower gb.runner matches 8 run effect give @a[tag=gb.selected] levitation 1 16 true
 execute if score .LaunchPower gb.runner matches 9 run effect give @a[tag=gb.selected] levitation 1 18 true
 execute if score .LaunchPower gb.runner matches 10 run effect give @a[tag=gb.selected] levitation 1 20 true
-
-
-
-say 3

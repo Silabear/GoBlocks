@@ -1,3 +1,2 @@
-execute if entity @s[tag=gb.new.if] unless block ~-2 ~ ~ piston[facing=east] run function gb:zpriv/place/block/if_block
-execute if entity @s[tag=gb.new.if_block] if block ~-2 ~ ~ piston[facing=east] run tellraw @p ["",{"text":"[","color":"gold"},{"text":"GoBlocks","color":"yellow"},{"text":"] Due to current limitations, you ","color":"gold"},{"text":"cannot","bold":true,"color":"dark_red"},{"text":" place an IF inside another IF. There are two ways to get around this:","color":"gold"},{"text":"\n"},{"text":" - Using the ","color":"yellow"},{"text":"Continue If","underlined":true,"color":"yellow"},{"text":" block\n - Moving code to another function","color":"yellow"}]
-execute if entity @s[tag=gb.new.if_block] if block ~-2 ~ ~ piston[facing=east] run kill @s
+execute if block ~ ~ ~ air if block ~-1 ~ ~ air if block ~ ~ ~-1 air run function gb:zpriv/place/place_new
+kill @s
