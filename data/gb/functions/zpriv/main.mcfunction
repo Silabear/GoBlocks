@@ -15,7 +15,6 @@ execute as @e[type=marker,tag=gb.new_spawn] at @s align xyz positioned ~0.5 ~0.5
 
 # Block Breaking
 execute as @e[type=marker,tag=gb.block,tag=!gb.break.if] at @s run function gb:zpriv/check_destroy
-execute as @e[type=marker,tag=gb.block,tag=gb.break.if] at @s run function gb:zpriv/check_destroy_if
 
 # Events
 

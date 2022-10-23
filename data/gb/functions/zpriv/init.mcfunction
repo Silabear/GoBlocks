@@ -17,6 +17,6 @@ scoreboard objectives add gb.event.jump minecraft.custom:minecraft.jump
 scoreboard objectives add gb.event.sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add gb.event.sneak.once dummy
 
-schedule function gb:30s 30s
+schedule function gb:zpriv/30s 30s
 
 tellraw @a ["",{"text":"[","color":"gold"},{"text":"GoBlocks","color":"yellow"},{"text":"] ","color":"gold"},{"text":"Reloaded! ","color":"green"},{"text":"[Wiki]","color":"aqua","clickEvent":{"action":"open_url","value":"https://goblocks.gitbook.io/goblocks/getting-started/"}},{"text":" "},{"text":"[Discord]","color":"blue","clickEvent":{"action":"open_url","value":"https://discord.silabear.xyz"}},{"text":" (","italic":true,"color":"gray"},{"nbt":"Version","storage": "gb:meta","color": "gray","italic": true},{"text":")","italic":true,"color":"gray"}]

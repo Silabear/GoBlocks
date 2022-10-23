@@ -1,6 +1,6 @@
 {
     "values":[
-        "gb:main",
-        "gb:code_checks"
+        "gb:zpriv/main",
+        "gb:zpriv/code_checks"
     ]
 }
