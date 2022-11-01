@@ -13,6 +13,7 @@ execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=18}] run function gb
 execute if entity @s[tag=gb.block.function] run function gb:zpriv/chat_gui/function/submit
 execute if entity @s[tag=gb.block.call_function] run function gb:zpriv/chat_gui/call_function/submit
 execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=20}] run function gb:zpriv/chat_gui/player_event/hit/on_sneak
+execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=21}] run function gb:zpriv/chat_gui/player_event/hit/on_death
 execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=27}] run function gb:zpriv/chat_gui/player_event/hit/on_first_join
 execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=28}] run function gb:zpriv/chat_gui/player_event/hit/on_tick
 execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=38}] run function gb:zpriv/chat_gui/player_event/hit/on_jump

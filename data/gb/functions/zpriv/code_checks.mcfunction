@@ -9,3 +9,6 @@ scoreboard players reset @a[scores={gb.event.jump=1..}] gb.event.jump
 execute as @a[scores={gb.event.sneak=1,gb.event.sneak.once=0}] run function gb:zpriv/runner/event/sneak
 execute as @a[scores={gb.event.sneak=1..}] if score @s gb.event.sneak.once = @s gb.event.sneak run function gb:zpriv/misc/stop_sneak
 execute as @a[scores={gb.event.sneak=1..}] store result score @s gb.event.sneak.once run scoreboard players get @s gb.event.sneak
+
+execute as @a[scores={gb.event.death=1..}] run function gb:zpriv/runner/event/death
+scoreboard players reset @a[scores={gb.event.death=1..}] gb.event.death
