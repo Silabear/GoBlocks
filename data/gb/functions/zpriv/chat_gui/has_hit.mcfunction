@@ -15,6 +15,7 @@ execute if entity @s[tag=gb.block.call_function] run function gb:zpriv/chat_gui/
 execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=20}] run function gb:zpriv/chat_gui/player_event/hit/on_sneak
 execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=21}] run function gb:zpriv/chat_gui/player_event/hit/on_death
 execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=23}] run function gb:zpriv/chat_gui/player_event/hit/drop_item
+execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=24}] run function gb:zpriv/chat_gui/player_event/hit/give_item_to_player
 execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=27}] run function gb:zpriv/chat_gui/player_event/hit/on_first_join
 execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=28}] run function gb:zpriv/chat_gui/player_event/hit/on_tick
 execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=38}] run function gb:zpriv/chat_gui/player_event/hit/on_jump
