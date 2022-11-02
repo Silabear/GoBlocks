@@ -19,6 +19,8 @@
 19 - Call Function Sumbit
 20 - On Sneak
 21 - Player Dies
+22 - Item Events
+23 - Player Drops Item
 26 - Game Events
 27 - On First Join
 28 - Player Tick

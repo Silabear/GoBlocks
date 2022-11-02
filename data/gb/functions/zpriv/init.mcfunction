@@ -17,6 +17,7 @@ scoreboard objectives add gb.event.jump minecraft.custom:minecraft.jump
 scoreboard objectives add gb.event.sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add gb.event.sneak.once dummy
 scoreboard objectives add gb.event.death minecraft.custom:minecraft.deaths
+scoreboard objectives add gb.event.drop_item minecraft.custom:minecraft.drop
 
 schedule function gb:zpriv/30s 30s
 
