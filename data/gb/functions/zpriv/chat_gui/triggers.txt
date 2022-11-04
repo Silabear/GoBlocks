@@ -21,6 +21,8 @@
 21 - Player Dies
 22 - Item Events
 23 - Player Drops Item
+24 - Player Gives Item To Player
+25 - Player Consumes Item
 26 - Game Events
 27 - On First Join
 28 - Player Tick
