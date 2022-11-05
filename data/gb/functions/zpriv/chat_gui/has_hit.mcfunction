@@ -20,5 +20,7 @@ execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=25}] run function gb
 execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=27}] run function gb:zpriv/chat_gui/player_event/hit/on_first_join
 execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=28}] run function gb:zpriv/chat_gui/player_event/hit/on_tick
 execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=38}] run function gb:zpriv/chat_gui/player_event/hit/on_jump
+execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=41}] run function gb:zpriv/chat_gui/selector/hit/players/all
+execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=42}] run function gb:zpriv/chat_gui/selector/hit/players/original
 
 # particle minecraft:firework ~ ~ ~ .1 .1 .1 .2 5

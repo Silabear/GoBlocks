@@ -28,3 +28,7 @@
 28 - Player Tick
 37 - Movement Events
 38 - Jump
+39 - Players
+40 - Non-Players
+41 - All Players
+42 - Original Player

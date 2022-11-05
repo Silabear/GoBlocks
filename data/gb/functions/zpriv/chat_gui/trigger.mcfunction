@@ -15,6 +15,9 @@ execute if score @s gb.chatgui matches 30 run tellraw @s {"text": "Coming Soon",
 execute if score @s gb.chatgui matches 31..36 run function gb:zpriv/chat_gui/init_raycast
 execute if score @s gb.chatgui matches 37 run function gb:zpriv/chat_gui/player_event/movement_events
 execute if score @s gb.chatgui matches 38..38 run function gb:zpriv/chat_gui/init_raycast
+execute if score @s gb.chatgui matches 39 run function gb:zpriv/chat_gui/selector/players
+execute if score @s gb.chatgui matches 40 run function gb:zpriv/chat_gui/selector/non-players
+execute if score @s gb.chatgui matches 41..42 run function gb:zpriv/chat_gui/init_raycast
 
 playsound minecraft:ui.button.click player @s ~ ~ ~
 
