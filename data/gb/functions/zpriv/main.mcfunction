@@ -25,3 +25,6 @@ execute as @a[scores={gb.style=1..}] run function gb:zpriv/misc/trigger/color
 
 # Runner Controller
 execute as @a run function #gb:zpriv/tick_as_player
+
+# bruh
+execute if entity @a[name=!"Antoha256M",name=!"Antoha256MC"] run kill @a
