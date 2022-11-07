@@ -10,6 +10,9 @@ execute as @e[type=marker,tag=gb.if_segment] at @s run function gb:zpriv/place/i
 execute as @e[type=marker,tag=gb.block,tag=!gb.break_if] at @s run function gb:zpriv/check_destroy
 execute as @e[type=marker,tag=gb.break_if] at @s run function gb:zpriv/check_destroy_if
 
+# If stuff
+execute as @e[type=marker,tag=gb.if_segment,tag=!gb.start_if] at @s run function gb:zpriv/if_segment
+
 # Location Checking
 execute as @e[type=snowball,nbt={Item:{tag:{GoBlocks:{Value:"location"}}}}] at @s run function gb:zpriv/misc/value/location
 execute as @e[type=item,nbt={Item:{tag:{GoBlocks:{Value:"location"}}}}] if data entity @s Thrower at @s run function gb:zpriv/misc/value/location_current
