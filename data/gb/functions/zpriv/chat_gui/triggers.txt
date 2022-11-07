@@ -32,3 +32,10 @@
 40 - Non-Players
 41 - All Players
 42 - Original Player
+43 - Blocks and Entities
+44 - Spawn Entity
+45 - Spawn Vehicle
+46 - Spawn Lightning
+47 - Place Blocks
+48 - Place Liquid
+49 - Destroy Block

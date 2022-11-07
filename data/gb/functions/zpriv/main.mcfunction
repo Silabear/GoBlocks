@@ -3,9 +3,12 @@ execute as @a[scores={gb.chatgui=1..}] at @s run function gb:zpriv/chat_gui/trig
 
 # Block Spawning
 execute as @e[type=marker,tag=gb.new_spawn] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function gb:zpriv/place/place
+execute as @e[type=marker,tag=gb.spawn.if_player] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function gb:zpriv/place/if/player
+execute as @e[type=marker,tag=gb.if_segment] at @s run function gb:zpriv/place/if/segment
 
 # Block Breaking
-execute as @e[type=marker,tag=gb.block,tag=!gb.break.if] at @s run function gb:zpriv/check_destroy
+execute as @e[type=marker,tag=gb.block,tag=!gb.break_if] at @s run function gb:zpriv/check_destroy
+execute as @e[type=marker,tag=gb.break_if] at @s run function gb:zpriv/check_destroy_if
 
 # Location Checking
 execute as @e[type=snowball,nbt={Item:{tag:{GoBlocks:{Value:"location"}}}}] at @s run function gb:zpriv/misc/value/location
@@ -25,6 +28,3 @@ execute as @a[scores={gb.style=1..}] run function gb:zpriv/misc/trigger/color
 
 # Runner Controller
 execute as @a run function #gb:zpriv/tick_as_player
-
-# bruh
-execute if entity @a[name=!"Antoha256M",name=!"Antoha256MC"] run kill @a
