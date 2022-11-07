@@ -20,6 +20,8 @@ execute if score @s gb.chatgui matches 40 run function gb:zpriv/chat_gui/selecto
 execute if score @s gb.chatgui matches 41..42 run function gb:zpriv/chat_gui/init_raycast
 execute if score @s gb.chatgui matches 43 run function gb:zpriv/chat_gui/world_action/blocks_and_entities
 execute if score @s gb.chatgui matches 44..49 run function gb:zpriv/chat_gui/init_raycast
+execute if score @s gb.chatgui matches 50 run function gb:zpriv/chat_gui/if_player/inventory
+execute if score @s gb.chatgui matches 51..53 run function gb:zpriv/chat_gui/init_raycast
 
 playsound minecraft:ui.button.click player @s ~ ~ ~
 

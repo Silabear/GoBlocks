@@ -28,5 +28,8 @@ execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=46}] run function gb
 execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=47}] run function gb:zpriv/chat_gui/world_action/hit/blocks_and_entites/place_block
 execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=48}] run function gb:zpriv/chat_gui/world_action/hit/blocks_and_entites/place_liquid
 execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=49}] run function gb:zpriv/chat_gui/world_action/hit/blocks_and_entites/destroy_block
+execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=51}] run function gb:zpriv/chat_gui/if_player/hit/is_holding_item
+execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=52}] run function gb:zpriv/chat_gui/if_player/hit/selected_hotbar_slot_equals
+execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=53}] run function gb:zpriv/chat_gui/if_player/hit/is_wearing_item
 
 # particle minecraft:firework ~ ~ ~ .1 .1 .1 .2 5

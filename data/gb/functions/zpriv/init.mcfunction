@@ -1,3 +1,11 @@
+# Triggers
+scoreboard objectives add gb.chatgui trigger
+scoreboard objectives add gb.number trigger
+scoreboard objectives add gb.style trigger
+scoreboard objectives add gb.function_stuff trigger
+scoreboard objectives add gb.call_function_stuff trigger
+
+# Misc
 scoreboard objectives add gb.initcheck dummy
 execute store success score .new_install gb.initcheck run scoreboard objectives add gb.version dummy
 function gb:zpriv/version
@@ -6,12 +14,8 @@ scoreboard objectives add gb.misc dummy
 scoreboard objectives add gb.runner dummy
 scoreboard objectives add zgb.inputs_required dummy
 scoreboard objectives add gb.style_trigger dummy
-scoreboard objectives add gb.chatgui trigger
-scoreboard objectives add gb.number trigger
-scoreboard objectives add gb.style trigger
-scoreboard objectives add gb.function_stuff trigger
-scoreboard objectives add gb.call_function_stuff trigger
 
+# Events
 scoreboard objectives add gb.event.damage minecraft.custom:minecraft.damage_taken
 scoreboard objectives add gb.event.jump minecraft.custom:minecraft.jump
 scoreboard objectives add gb.event.sneak minecraft.custom:minecraft.sneak_time

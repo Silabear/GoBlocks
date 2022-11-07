@@ -39,3 +39,4 @@
 47 - Place Blocks
 48 - Place Liquid
 49 - Destroy Block
+50 - Inventory 
