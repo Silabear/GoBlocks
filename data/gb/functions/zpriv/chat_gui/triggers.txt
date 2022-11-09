@@ -40,3 +40,11 @@
 48 - Place Liquid
 49 - Destroy Block
 50 - Inventory 
+51 - Is Holding Item
+52 - Selected Hotbar Slot Equals
+53 - Status
+54 - Set Selected Item
+55 - Is On Fire
+56 - Is Sneaking
+57 - Is Sprinting
+58 - Is Swimming

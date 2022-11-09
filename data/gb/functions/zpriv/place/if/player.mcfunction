@@ -1,6 +1,5 @@
 setblock ~ ~ ~ red_concrete
 setblock ~ ~ ~-1 oak_wall_sign[facing=north]{Text1:'{"text":"","clickEvent": {"action": "run_command","value": "/function gb:zpriv/chat_gui/if_player/main"}}',Text2:'"If Player"'}
-summon marker ~-1 ~ ~ {Tags:["gb.if_segment","gb.start_if"]}
-setblock ~ ~ ~-1 oak_wall_sign[facing=north]
+summon marker ~-1 ~ ~ {Tags:["gb.if_segment","gb.start_if","gb.segment"]}
 kill @s
 summon marker ~ ~ ~ {Tags:["gb.block","gb.block.if_player","gb.break_if"]}

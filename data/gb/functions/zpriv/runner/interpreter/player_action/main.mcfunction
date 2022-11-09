@@ -7,3 +7,4 @@ execute if entity @s[tag=gb.type.send_message] run function gb:zpriv/runner/inte
 execute if entity @s[tag=gb.type.clear_chat] run function gb:zpriv/runner/interpreter/player_action/chat/clear_chat
 execute if entity @s[tag=gb.type.show_title] run function gb:zpriv/runner/interpreter/player_action/chat/show_title
 execute if entity @s[tag=gb.type.show_actionbar] run function gb:zpriv/runner/interpreter/player_action/chat/show_actionbar
+execute if entity @s[tag=gb.type.set_selected_item] run function gb:zpriv/runner/interpreter/player_action/chat/set_selected_item
