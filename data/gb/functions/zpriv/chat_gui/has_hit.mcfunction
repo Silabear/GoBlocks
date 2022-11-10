@@ -36,5 +36,9 @@ execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=55}] run function gb
 execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=56}] run function gb:zpriv/chat_gui/if_player/hit/is_sneaking
 execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=57}] run function gb:zpriv/chat_gui/if_player/hit/is_sprinting
 execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=58}] run function gb:zpriv/chat_gui/if_player/hit/is_swimming
+execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=59}] run function gb:zpriv/chat_gui/repeat/hit/x
+execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=61}] run function gb:zpriv/chat_gui/player_action/hit/stat/kill_player
+execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=62}] run function gb:zpriv/chat_gui/player_action/hit/stat/reset_hunger
+execute if entity @a[limit=1,tag=gb.temp,scores={gb.chatgui=63}] run function gb:zpriv/chat_gui/player_action/hit/stat/reset_health
 
 # particle minecraft:firework ~ ~ ~ .1 .1 .1 .2 5

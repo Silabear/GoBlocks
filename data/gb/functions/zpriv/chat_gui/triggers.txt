@@ -48,3 +48,8 @@
 56 - Is Sneaking
 57 - Is Sprinting
 58 - Is Swimming
+59 - Repeat X times
+60 - statiscitc
+61 - kill Player
+62 - reset hunger
+63 - reset health

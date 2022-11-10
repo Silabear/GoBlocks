@@ -1,0 +1,1 @@
+effect give @a[tag=gb.selected] minecraft:saturation 1 250
