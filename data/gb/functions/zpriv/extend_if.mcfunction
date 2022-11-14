@@ -1,0 +1,1 @@
+execute positioned ~-2 ~ ~ run summon marker ~ ~ ~ {Tags:["gb.if_segment"]}

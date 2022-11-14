@@ -1,0 +1,55 @@
+1 - Nothing
+2 - Player Event Main
+3 - On Damage Event
+4 - Communication Action
+5 - Movement Actions
+6 - Teleport To
+7 - Launch Up
+8 - Send Message
+9 - Inventory Actions
+10 - Give Items 
+11 - Clear Inventory 
+12 - Set Armour 
+13 - Set Hotbar 
+14 - Set Inventory 
+15 - Function Sumbit
+16 - Show Title
+17 - Show Action Bar
+18 - Clear Chat
+19 - Call Function Sumbit
+20 - On Sneak
+21 - Player Dies
+22 - Item Events
+23 - Player Drops Item
+24 - Player Gives Item To Player
+25 - Player Consumes Item
+26 - Game Events
+27 - On First Join
+28 - Player Tick
+37 - Movement Events
+38 - Jump
+39 - Players
+40 - Non-Players
+41 - All Players
+42 - Original Player
+43 - Blocks and Entities
+44 - Spawn Entity
+45 - Spawn Vehicle
+46 - Spawn Lightning
+47 - Place Blocks
+48 - Place Liquid
+49 - Destroy Block
+50 - Inventory 
+51 - Is Holding Item
+52 - Selected Hotbar Slot Equals
+53 - Status
+54 - Set Selected Item
+55 - Is On Fire
+56 - Is Sneaking
+57 - Is Sprinting
+58 - Is Swimming
+59 - Repeat X times
+60 - statiscitc
+61 - kill Player
+62 - reset hunger
+63 - reset health

@@ -1,0 +1,11 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "damage": {
+            "trigger": "minecraft:entity_hurt_player"
+        }
+    },
+    "rewards": {
+        "function": "gb:zpriv/runner/event/take_damage"
+    }
+}

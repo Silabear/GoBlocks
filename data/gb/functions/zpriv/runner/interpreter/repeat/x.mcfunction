@@ -1,0 +1,2 @@
+execute store result score .repeat gb.runner run data get block ~ ~1 ~ Items[0].tag.GoBlocks.Data
+execute if score .repeat gb.runner matches 1.. run execute positioned ~-1 ~1 ~ run function gb:zpriv/runner/pre_repeat_loop
