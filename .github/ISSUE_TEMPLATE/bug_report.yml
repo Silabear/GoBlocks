@@ -1,0 +1,36 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes: 
+      value: "By submitting a bug report you can help us make GoBlocks better."
+  - type: input
+    attributes: 
+      label: "Minecraft Version"
+      description: "The minecraft version you used, when the bug occured."
+      placeholder: "1.xx"
+  - type: checkboxes
+    attributes: 
+      label: "Have you tried the following already?"
+      options: 
+        - label: "reloading the datapack (`/reload`)"
+        - label: "restarting Minecraft"
+        - label: "using the latest version of GoBlocks"
+  - type: textarea
+    attributes: 
+      label: "Describe the bug"
+      description: "Describe the bug you found."
+      placeholder: "What happened:\n[...]\n\nWhat should have happened instead:\n[...]"
+  - type: textarea
+    attributes: 
+      label: "Screenshots"
+      description: "Optional screenshots that help describing the bug."
+  - type: textarea
+    attributes: 
+      label: "Logs"
+      description: "Optional relevant game log(s) or error message(s)"
+  - type: markdown
+    attributes: 
+      value: "Thanks for contributing!"
