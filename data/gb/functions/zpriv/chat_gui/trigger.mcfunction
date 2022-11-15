@@ -27,6 +27,9 @@ execute if score @s gb.chatgui matches 54..59 run function gb:zpriv/chat_gui/ini
 execute if score @s gb.chatgui matches 60 run function gb:zpriv/chat_gui/player_action/statistic
 execute if score @s gb.chatgui matches 61..64 run function gb:zpriv/chat_gui/init_raycast
 
+
+execute if score @s gb.chatgui matches 901 run function gb:zpriv/misc/trigger/onclick/run_function
+
 playsound minecraft:ui.button.click player @s ~ ~ ~
 
 scoreboard players set @s gb.chatgui 0

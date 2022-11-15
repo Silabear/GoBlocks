@@ -1,0 +1,5 @@
+scoreboard players enable @s gb.chatgui
+tellraw @s ["",{"text":"\u2554\u2550\u2550\u2550\u2563","color":"gold"},{"text":" GUI On Click Editor","color":"yellow"},{"text":" \u2560\u2550\u2550\u2550\u2557","color":"gold"},{"text":"\n"},{"text":"\u2551","color":"gold"},{"text":" Slot:","color":"aqua"},{"text":" ","color":"blue"},{"score":{"name":"@s","objective":"gb.onclick"},"color":"green"},{"text":"\n"},{"text":"\u2551 ","color":"gold"},{"text":"Event:","color":"aqua"},{"text":"\n"},{"text":"\u2551   ","color":"gold"},{"text":"[+]","color":"green","clickEvent":{"action":"run_command","value":"/trigger gb.chatgui set 901"}},{"text":" ","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger gb.chatgui set 901"}},{"text":"Run Function","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger gb.chatgui set 901"}},{"text":"\n"},{"text":"\u255a\u2550\u2550\u2550\u2563","color":"gold"},{"text":" GUI On Click Editor","color":"yellow"},{"text":" \u2560\u2550\u2550\u2550\u255d","color":"gold"}]
+
+scoreboard players operation @s gb.slot = @s gb.onclick
+scoreboard players reset @s gb.onclick
