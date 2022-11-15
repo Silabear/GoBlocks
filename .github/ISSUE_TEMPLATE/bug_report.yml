@@ -20,17 +20,17 @@ body:
         - label: "using the latest version of GoBlocks"
   - type: textarea
     attributes: 
-      label: Decsribe the bug
-      description: Describe the bug you found.
+      label: "Describe the bug"
+      description: "Describe the bug you found."
       placeholder: "What happened:\n[...]\n\nWhat should have happened instead:\n[...]"
   - type: textarea
     attributes: 
-      label: Screenshots
-      description: Optional screenshots that help describing the bug.
+      label: "Screenshots"
+      description: "Optional screenshots that help describing the bug."
   - type: textarea
     attributes: 
-      label: Logs
-      description: Optional relevant game log(s) or error message(s)
+      label: "Logs"
+      description: "Optional relevant game log(s) or error message(s)"
   - type: markdown
     attributes: 
       value: "Thanks for contributing!"
