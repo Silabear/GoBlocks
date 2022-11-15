@@ -15,9 +15,9 @@ body:
     attributes: 
       label: "Have you tried the following already?"
       options: 
-        - label: "Reloading the datapack (`/reload`)"
-        - label: "Restarting Minecraft"
-        - label: "using the lates version of GoBlocks"
+        - label: "reloading the datapack (`/reload`)"
+        - label: "restarting Minecraft"
+        - label: "using the latest version of GoBlocks"
   - type: textarea
     attributes: 
       label: Decsribe the bug
@@ -26,11 +26,11 @@ body:
   - type: textarea
     attributes: 
       label: Screenshots
-      description: Optional Screenshots that help describing the bug.
+      description: Optional screenshots that help describing the bug.
   - type: textarea
     attributes: 
       label: Logs
-      description: Optional relevant game log or error message 
+      description: Optional relevant game log(s) or error message(s)
   - type: markdown
     attributes: 
       value: "Thanks for contributing!"
