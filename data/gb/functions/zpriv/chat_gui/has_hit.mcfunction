@@ -42,6 +42,6 @@ execute if score .selection gb.chatgui matches 59 run function gb:zpriv/chat_gui
 execute if score .selection gb.chatgui matches 61 run function gb:zpriv/chat_gui/player_action/hit/stat/kill_player
 execute if score .selection gb.chatgui matches 62 run function gb:zpriv/chat_gui/player_action/hit/stat/reset_hunger
 execute if score .selection gb.chatgui matches 63 run function gb:zpriv/chat_gui/player_action/hit/stat/reset_health
-execute if score .selection gb.chatgui matches 64 run function gb:zpriv/chat_gui/selector/hit/players/random
+execute if score .selection gb.chatgui matches 64 run function gb:zpriv/chat_gui/player_action/hit/inv/show_gui
 
 # particle minecraft:firework ~ ~ ~ .1 .1 .1 .2 5
