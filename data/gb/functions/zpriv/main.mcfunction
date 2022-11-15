@@ -29,10 +29,18 @@ execute as @a[scores={gb.number=1..}] run function gb:zpriv/misc/number
 # Function Setting
 execute as @a[scores={gb.function_stuff=1..}] at @s run function gb:zpriv/misc/trigger/function
 execute as @a[scores={gb.call_function_stuff=1..}] at @s run function gb:zpriv/misc/trigger/call_function
+execute as @a[scores={gb.run_function_stuff=1..}] at @s run function gb:zpriv/misc/trigger/run_function
 
 # Colour Held Item
 scoreboard players enable @a gb.style
 execute as @a[scores={gb.style=1..}] run function gb:zpriv/misc/trigger/color
+
+# Thingy thingy
+execute as @e[type=item,nbt={Item:{tag:{display:{Name:'{"italic":false,"color":"blue","text":"GUI Page"}'}}}}] unless data entity @s Item.tag.GoBlocks run data modify entity @s Item.tag.GoBlocks set value {Value:"gui_page"}
+
+execute as @a run function gb:zpriv/misc/check_gui_page
+
+execute as @a[scores={gb.onclick=1..}] run function gb:zpriv/misc/trigger/onclick
 
 # Runner Controller
 execute as @a run function #gb:zpriv/tick_as_player

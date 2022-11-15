@@ -26,3 +26,5 @@ item replace entity @s hotbar.7 with snowball{display:{Name:'{"text":"Location",
 item replace entity @s hotbar.8 with scute{display:{Name:'{"text":"Number","color":"blue","italic":false}',Lore:['{"text":"This represents a whole number","color":"green","italic":false}','{"text":" "}','{"text":"To set","color":"gold","italic":false,"underlined":true}','[{"text":"- Hold this item and run ","color":"gold","italic":false},{"text":"/trigger gb.number set (value)","color":"yellow","italic":false}]']},GoBlocks:{Value:"number"}} 1
 
 item replace entity @s inventory.24 with anvil
+
+item replace entity @s inventory.26 with yellow_shulker_box{display:{Name:'{"text":"GUI Page","color":"blue","italic":false}',Lore:['{"text":"The GUI Page holds a single page in","color":"green","italic":false}','{"text": "a GUI","color": "green","italic": false}']},GoBlocks:{Value:"gui_page"}} 1
