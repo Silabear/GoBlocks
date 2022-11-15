@@ -23,6 +23,14 @@ body:
       label: Decsribe the bug
       description: Describe the bug you found.
       placeholder: "What happened:\n[...]\n\nWhat should have happened instead:\n[...]"
+  - type: textarea
+    attributes: 
+      label: Screenshots
+      description: Optional Screenshots that help describing the bug.
+  - type: textarea
+    attributes: 
+      label: Logs
+      description: Optional relevant game log or error message 
   - type: markdown
     attributes: 
       value: "Thanks for contributing!"
