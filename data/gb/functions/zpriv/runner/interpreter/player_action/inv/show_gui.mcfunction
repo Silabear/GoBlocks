@@ -22,6 +22,8 @@ execute at @e[type=marker,tag=gb.temp.show_gui,limit=1] run data modify entity @
 
 execute at @e[type=marker,tag=gb.temp.show_gui,limit=1] run data modify entity @e[type=marker,tag=gb.gui,limit=1,sort=nearest] data.Expected set from storage gb:nklmjkndewbsr jjdfshikjsfdhsfdkjhsdkjfhskdjhf
 
+function gb:zpriv/runner/interpreter/player_action/inv/show_gui/clear
+
 summon marker ~ ~ ~ {Tags:["gb.temp.show_gui"]}
 data modify entity @e[type=marker,tag=gb.temp.show_gui,limit=1] Pos set from block ~ ~1 ~ Items[1].tag.GoBlocks.Data
 execute at @e[type=marker,tag=gb.temp.show_gui,limit=1] run setblock ~ ~ ~ chest
