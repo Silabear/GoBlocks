@@ -42,5 +42,8 @@ execute as @a run function gb:zpriv/misc/check_gui_page
 
 execute as @a[scores={gb.onclick=1..}] run function gb:zpriv/misc/trigger/onclick
 
+# gui
+execute as @e[type=marker,tag=gb.gui] at @s run function gb:zpriv/gui/main
+
 # Runner Controller
 execute as @a run function #gb:zpriv/tick_as_player
