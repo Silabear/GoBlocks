@@ -8,14 +8,14 @@ body:
       value: "Suggesting a feature does not guarantee that it will be added."
   - type: dropdown
     attributes: 
-      label: What type of request is this?
+      label: "What type of request is this?"
       options:
         - Changing or adding to an existing feature
         - Completely new feature
   - type: textarea
     attributes:
-      label: Decsribe the feature
-      description: Describe the feature you'd like to see added to GoBlocks.
+      label: "Describe the feature"
+      description: "Describe the feature you'd like to see added to GoBlocks."
       placeholder: "The feature:\n[...]\n\nIt would be cool/useful because:\n[...]"
   - type: markdown
     attributes:
