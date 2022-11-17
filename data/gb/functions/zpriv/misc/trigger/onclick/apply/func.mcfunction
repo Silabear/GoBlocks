@@ -16,5 +16,3 @@ item replace block ~ ~ ~ container.0 from entity @s weapon.mainhand
 data modify block ~ ~ ~ Items[0].tag.Clicks set from storage gb:imaginenamingthisstorage slots
 
 item replace entity @s weapon.mainhand from block ~ ~ ~ container.0
-
-setblock ~ ~ ~ air replace

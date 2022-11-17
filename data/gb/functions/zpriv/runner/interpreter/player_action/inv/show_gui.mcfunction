@@ -17,5 +17,3 @@ execute at @e[type=marker,tag=gb.temp.show_gui,limit=1] run function gb:zpriv/ru
 execute at @e[type=marker,tag=gb.temp.show_gui,limit=1] align xyz positioned ~.5 ~.5 ~.5 run summon marker ~ ~ ~ {Tags:["gb.gui"]} 
 
 execute at @e[type=marker,tag=gb.temp.show_gui,limit=1] run data modify entity @e[type=marker,tag=gb.gui,limit=1] data.Expected set from storage gb:nklmjkndewbsr jjdfshikjsfdhsfdkjhsdkjfhskdjhf
-
-kill @e[type=marker,tag=gb.temp.show_gui,limit=1]
