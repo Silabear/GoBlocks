@@ -53,3 +53,4 @@
 61 - kill Player
 62 - reset hunger
 63 - reset health
+64 - Random Player
