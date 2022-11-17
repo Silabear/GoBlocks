@@ -3,6 +3,7 @@ execute if entity @s[tag=gb.type.launch_up] run function gb:zpriv/runner/interpr
 execute if entity @s[tag=gb.type.give_items] run function gb:zpriv/runner/interpreter/player_action/inv/give_items
 execute if entity @s[tag=gb.type.set_inventory] run function gb:zpriv/runner/interpreter/player_action/inv/set_inventory
 execute if entity @s[tag=gb.type.set_hotbar] run function gb:zpriv/runner/interpreter/player_action/inv/set_hotbar
+execute if entity @s[tag=gb.type.set_armour] run function gb:zpriv/runner/interpreter/player_action/inv/set_armour
 execute if entity @s[tag=gb.type.send_message] run function gb:zpriv/runner/interpreter/player_action/chat/send_message
 execute if entity @s[tag=gb.type.clear_chat] run function gb:zpriv/runner/interpreter/player_action/chat/clear_chat
 execute if entity @s[tag=gb.type.show_title] run function gb:zpriv/runner/interpreter/player_action/chat/show_title
