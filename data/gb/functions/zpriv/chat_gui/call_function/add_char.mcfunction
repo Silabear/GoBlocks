@@ -1,3 +1,13 @@
+#
+# Append char to call function name
+#
+# [gb.block.call_function]
+# if char clicked in call function chat gui
+# if length of call function name <= 13 chars
+# as/at block marker
+#
+
+# append char
 execute if score @s gb.call_function_stuff matches 2 run data modify storage gb:call_function_edit Name append value "A"
 execute if score @s gb.call_function_stuff matches 3 run data modify storage gb:call_function_edit Name append value "B"
 execute if score @s gb.call_function_stuff matches 4 run data modify storage gb:call_function_edit Name append value "C"

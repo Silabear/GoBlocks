@@ -1,3 +1,12 @@
+#
+# Main chat gui control
+#
+# [gb.chatgui]
+# if chat gui used
+# as/at player that used chat gui
+#
+
+# check trigger
 execute if score @s gb.chatgui matches 1 run tellraw @s {"text": "Psst... don't run this command! It's meant for chat GUI only. You could break something!","color": "gray"}
 execute if score @s gb.chatgui matches 2 run function gb:zpriv/chat_gui/player_event/damage_events
 execute if score @s gb.chatgui matches 3 run function gb:zpriv/chat_gui/init_raycast
@@ -27,6 +36,9 @@ execute if score @s gb.chatgui matches 54..59 run function gb:zpriv/chat_gui/ini
 execute if score @s gb.chatgui matches 60 run function gb:zpriv/chat_gui/player_action/statistic
 execute if score @s gb.chatgui matches 61..64 run function gb:zpriv/chat_gui/init_raycast
 
+
+# sound
 playsound minecraft:ui.button.click player @s ~ ~ ~
 
+# reset score
 scoreboard players set @s gb.chatgui 0

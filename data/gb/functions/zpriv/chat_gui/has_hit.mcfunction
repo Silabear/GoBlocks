@@ -1,5 +1,15 @@
+#
+# Raycast to find relevant block
+#
+# if raycast has hit
+# as/at block marker
+#
+
+# get trigger
 scoreboard players operation .selection gb.chatgui = @a[limit=1,tag=gb.temp] gb.chatgui
 
+
+# check trigger
 execute if score .selection gb.chatgui matches 3 run function gb:zpriv/chat_gui/player_event/hit/take_damage
 execute if score .selection gb.chatgui matches 6 run function gb:zpriv/chat_gui/player_action/hit/teleport
 execute if score .selection gb.chatgui matches 7 run function gb:zpriv/chat_gui/player_action/hit/launch_up
