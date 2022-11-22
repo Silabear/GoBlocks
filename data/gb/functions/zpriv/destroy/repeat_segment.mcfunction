@@ -1,2 +1,11 @@
+#
+# Destroy repeat segment
+#
+# [gb.block] [gb.block.repeat] [gb.segment] [gb.repeat_segment]
+# if closest repeat segment not needed anymore
+# as/at segment marker
+#
+
+# remove segment
 kill @e[type=marker,tag=gb.repeat_segment,limit=1,distance=...1]
 fill ~ ~ ~ ~-1 ~ ~ air
