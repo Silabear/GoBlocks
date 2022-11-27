@@ -1,9 +1,11 @@
 #
-# Raycast to find relevant block
+# Raycast to select block and link
 #
-# if option selected in chat gui
-# as/at player that selected option
+# if block right clicked
+# as/at player that clicked block
 #
+
+particle minecraft:dust 1 0 0 3 ~ ~ ~
 
 # hit
 execute as @e[type=marker,tag=gb.block,limit=1,sort=nearest,distance=..1] at @s run function gb:zpriv/chat_gui/has_hit

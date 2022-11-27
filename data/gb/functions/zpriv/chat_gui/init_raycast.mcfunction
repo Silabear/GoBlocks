@@ -1,8 +1,8 @@
 #
-# Raycast to find relevant block
+# Raycast to select block and link
 #
-# if option selected in chat gui
-# as/at player that selected option
+# if block right clicked
+# as/at player that clicked block
 #
 
 
@@ -12,6 +12,6 @@ tag @s add gb.temp
 scoreboard players set @s gb.raycast 10
 
 # start raycast
-execute anchored eyes positioned ~ ~1 ~ run function gb:zpriv/chat_gui/raycast
+execute anchored eyes run function gb:zpriv/chat_gui/raycast
 
 tag @s remove gb.temp

@@ -21,6 +21,9 @@ scoreboard objectives add gb.runner dummy
 scoreboard objectives add zgb.inputs_required dummy
 scoreboard objectives add gb.style_trigger dummy
 scoreboard objectives add gb.comparison dummy
+execute store success score .id gb.initcheck run scoreboard objectives add gb.id dummy
+execute if score .id gb.initcheck matches 1 run scoreboard players set .max gb.id 0
+scoreboard objectives add gb.selected dummy
 
 # Events
 scoreboard objectives add gb.event.damage minecraft.custom:minecraft.damage_taken
