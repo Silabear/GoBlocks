@@ -1,5 +1,16 @@
-execute store result score .LaunchPower gb.runner run data get block ~ ~1 ~ Items[0].tag.GoBlocks.Data
+#
+# Run launch up player action
+#
+# [gb.runner] [gb.block] [gb.block.player_action]
+# if running player action block with type launch up
+# as/at block marker
+#
+
+# give effect
 effect give @a[tag=gb.selected] levitation 1 3 true
+
+# modify power
+execute store result score .LaunchPower gb.runner run data get block ~ ~1 ~ Items[0].tag.GoBlocks.Data
 execute if score .LaunchPower gb.runner matches 2 run effect give @a[tag=gb.selected] levitation 1 4 true
 execute if score .LaunchPower gb.runner matches 3 run effect give @a[tag=gb.selected] levitation 1 6 true
 execute if score .LaunchPower gb.runner matches 4 run effect give @a[tag=gb.selected] levitation 1 8 true

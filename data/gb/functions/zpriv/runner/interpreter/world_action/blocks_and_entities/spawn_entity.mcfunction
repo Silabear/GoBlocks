@@ -1,6 +1,16 @@
+#
+# Run spawn vehicle world action
+#
+# [gb.runner] [gb.block] [gb.block.world_action]
+# if running world action block with type spawn entity
+# as/at block marker of block to run
+#
+
+# get pos
 summon marker ~ ~ ~ {Tags:["gb.temp.spawn_entity"]}
 data modify entity @e[type=marker,tag=gb.temp.spawn_entity,limit=1] Pos set from block ~ ~1 ~ Items[1].tag.GoBlocks.Data
 
+# check type
 execute if data block ~ ~1 ~ Items[{Slot:0b,id:"minecraft:allay_spawn_egg"}] run execute at @e[type=marker,tag=gb.temp.spawn_entity,limit=1] run summon minecraft:allay
 execute if data block ~ ~1 ~ Items[{Slot:0b,id:"minecraft:axolotl_spawn_egg"}] run execute at @e[type=marker,tag=gb.temp.spawn_entity,limit=1] run summon minecraft:axolotl
 execute if data block ~ ~1 ~ Items[{Slot:0b,id:"minecraft:bat_spawn_egg"}] run execute at @e[type=marker,tag=gb.temp.spawn_entity,limit=1] run summon minecraft:bat
@@ -72,4 +82,6 @@ execute if data block ~ ~1 ~ Items[{Slot:0b,id:"minecraft:zombie_spawn_egg"}] ru
 execute if data block ~ ~1 ~ Items[{Slot:0b,id:"minecraft:zombie_horse_spawn_egg"}] run execute at @e[type=marker,tag=gb.temp.spawn_entity,limit=1] run summon minecraft:zombie_horse
 execute if data block ~ ~1 ~ Items[{Slot:0b,id:"minecraft:zombie_villager_spawn_egg"}] run execute at @e[type=marker,tag=gb.temp.spawn_entity,limit=1] run summon minecraft:zombie_villager
 execute if data block ~ ~1 ~ Items[{Slot:0b,id:"minecraft:zombified_piglin_spawn_egg"}] run execute at @e[type=marker,tag=gb.temp.spawn_entity,limit=1] run summon minecraft:zombified_piglin
+
+# remove marker
 kill @e[type=marker,tag=gb.temp.spawn_entity,limit=1]

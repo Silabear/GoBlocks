@@ -1,3 +1,12 @@
+#
+# Run set inventory player action
+#
+# [gb.runner] [gb.block] [gb.block.player_action]
+# if running player action block with type set inventory
+# as/at block marker
+#
+
+# copy items
 item replace entity @a[tag=gb.selected] inventory.0 from block ~ ~1 ~ container.0
 item replace entity @a[tag=gb.selected] inventory.1 from block ~ ~1 ~ container.1
 item replace entity @a[tag=gb.selected] inventory.2 from block ~ ~1 ~ container.2
