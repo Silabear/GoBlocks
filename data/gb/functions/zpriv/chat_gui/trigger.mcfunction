@@ -34,8 +34,7 @@ execute if score @s gb.chatgui matches 51..52 run function gb:zpriv/chat_gui/ini
 execute if score @s gb.chatgui matches 53 run function gb:zpriv/chat_gui/if_player/status
 execute if score @s gb.chatgui matches 54..59 run function gb:zpriv/chat_gui/init_raycast
 execute if score @s gb.chatgui matches 60 run function gb:zpriv/chat_gui/player_action/statistic
-execute if score @s gb.chatgui matches 61..64 run function gb:zpriv/chat_gui/init_raycast
-
+execute if score @s gb.chatgui matches 61..65 run function gb:zpriv/chat_gui/init_raycast
 
 # sound
 playsound minecraft:ui.button.click player @s ~ ~ ~

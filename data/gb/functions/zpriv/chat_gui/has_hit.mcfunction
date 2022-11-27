@@ -8,6 +8,8 @@
 # get trigger
 scoreboard players operation .selection gb.chatgui = @a[limit=1,tag=gb.temp] gb.chatgui
 
+# reset barrel block
+setblock ~ ~1 ~ air replace
 
 # check trigger
 execute if score .selection gb.chatgui matches 3 run function gb:zpriv/chat_gui/player_event/hit/take_damage
@@ -53,5 +55,6 @@ execute if score .selection gb.chatgui matches 61 run function gb:zpriv/chat_gui
 execute if score .selection gb.chatgui matches 62 run function gb:zpriv/chat_gui/player_action/hit/stat/reset_hunger
 execute if score .selection gb.chatgui matches 63 run function gb:zpriv/chat_gui/player_action/hit/stat/reset_health
 execute if score .selection gb.chatgui matches 64 run function gb:zpriv/chat_gui/selector/hit/players/random
+execute if score .selection gb.chatgui matches 65 run function gb:zpriv/chat_gui/player_event/hit/on_join
 
 # particle minecraft:firework ~ ~ ~ .1 .1 .1 .2 5

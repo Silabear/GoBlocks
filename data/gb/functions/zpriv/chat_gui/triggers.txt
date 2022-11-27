@@ -61,6 +61,7 @@
 62 - reset hunger
 63 - reset health
 64 - Random Player
+65 - On Join
 
 # gb.call_function_stuff
 1 - Nothing

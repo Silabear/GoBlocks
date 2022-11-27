@@ -29,3 +29,7 @@ execute if entity @s[scores={gb.event.sneak=1..}] store result score @s gb.event
 # Player Takes Damage
 execute if score @s gb.event.damage matches 1.. run function gb:zpriv/runner/event/take_damage
 scoreboard players set @s[scores={gb.event.damage=1..}] gb.event.damage 0
+
+# Player Joins
+execute if score @s gb.event.join matches 1.. run function gb:zpriv/runner/event/join
+scoreboard players set @s[scores={gb.event.join=1..}] gb.event.join 0

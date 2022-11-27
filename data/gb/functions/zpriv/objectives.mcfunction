@@ -29,3 +29,4 @@ scoreboard objectives add gb.event.sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add gb.event.sneak.once dummy
 scoreboard objectives add gb.event.death minecraft.custom:minecraft.deaths
 scoreboard objectives add gb.event.drop_item minecraft.custom:minecraft.drop
+scoreboard objectives add gb.event.join minecraft.custom:minecraft.leave_game
