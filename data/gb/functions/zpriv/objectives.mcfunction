@@ -1,3 +1,10 @@
+#
+# Scoreboard setup
+#
+# [load]
+# as/at server
+#
+
 # Triggers
 scoreboard objectives add gb.chatgui trigger
 scoreboard objectives add gb.number trigger

@@ -1,3 +1,10 @@
+#
+# Compare current version to previous version
+#
+# [load]
+# as/at server
+#
+
 scoreboard players set .latest gb.version 1
 
 execute if score .new_install gb.initcheck matches 1 run function gb:zpriv/oh_hi_there
