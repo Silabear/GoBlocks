@@ -1,3 +1,13 @@
+#
+# Place block for GoBlocks block
+#
+# [gb.block]
+# if enough space for GoBlocks block
+# as spawn marker
+# at blockcenter [aligned from spawn marker]
+#
+
+# select color
 execute if entity @s[nbt={data:{GoBlocks:{SpawnData:{Block:"Red"}}}}] run setblock ~ ~ ~ red_concrete
 execute if entity @s[nbt={data:{GoBlocks:{SpawnData:{Block:"Orange"}}}}] run setblock ~ ~ ~ orange_concrete
 execute if entity @s[nbt={data:{GoBlocks:{SpawnData:{Block:"Yellow"}}}}] run setblock ~ ~ ~ yellow_concrete

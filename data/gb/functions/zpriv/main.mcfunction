@@ -1,3 +1,10 @@
+#
+# Main loop
+#
+# [tick]
+# as/at server
+#
+
 # Chat GUI trigger
 execute as @a[scores={gb.chatgui=1..}] at @s run function gb:zpriv/chat_gui/trigger
 
@@ -30,7 +37,7 @@ execute as @a[scores={gb.number=1..}] run function gb:zpriv/misc/number
 execute as @a[scores={gb.function_stuff=1..}] at @s run function gb:zpriv/misc/trigger/function
 execute as @a[scores={gb.call_function_stuff=1..}] at @s run function gb:zpriv/misc/trigger/call_function
 
-# Colour Held Item
+# Color Held Item
 scoreboard players enable @a gb.style
 execute as @a[scores={gb.style=1..}] run function gb:zpriv/misc/trigger/color
 

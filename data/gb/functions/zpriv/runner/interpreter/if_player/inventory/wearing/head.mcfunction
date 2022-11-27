@@ -1,3 +1,7 @@
+#
+# WORK IN PROGRESS
+#
+
 data modify storage gb:comparison Sample set from block ~ ~1 ~ Items[0]
 data remove storage gb:comparison Sample.Slot
 

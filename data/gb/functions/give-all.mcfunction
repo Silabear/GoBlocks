@@ -1,4 +1,13 @@
+#
+# Give all GoBlocks items to player
+#
+# called manually by player
+# as/at player
+#
+
+# Clear inventory
 clear @s
+
 # Hotbar
 item replace entity @s hotbar.0 with tropical_fish_spawn_egg{display:{Name:'{"text":"Player Event","color":"gold","italic":false}',Lore:['{"text":"Runs when a player does a certain action","color":"green","italic":false}','{"text":"Right click the sign for settings","color":"gray","italic":false}','{"text":" "}','{"text":"EVENT BLOCK","color":"gold","italic":false}']},EntityTag:{id:"minecraft:marker",Tags:["gb.new_spawn"],data:{GoBlocks:{SpawnData:{DisplayName:'{"text":"Player Event"}',Tag:"gb.block.player_event",Block:"Orange",BlockType:"Event",ClickEvent:'{"text":"","clickEvent":{"action":"run_command","value":"function gb:zpriv/chat_gui/player_event/main"}}'}}}},HideFlags:127} 1
 

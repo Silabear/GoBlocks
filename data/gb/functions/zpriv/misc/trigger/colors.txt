@@ -1,0 +1,31 @@
+#
+# List of all Styles
+#
+
+# colors
+2 - dark_red
+3 - red
+4 - gold
+5 - yellow
+6 - dark_green
+7 - green
+8 - aqua
+9 - dark_aqua
+10 - dark_blue
+11 - blue
+12 - pink
+13 - purple
+14 - white
+15 - gray
+16 - dark_gray
+17 - black
+
+# styles
+18 - bold
+19 - italic
+20 - underlined
+21 - strikethrough
+22 - obfuscated
+
+# none
+23 - reset

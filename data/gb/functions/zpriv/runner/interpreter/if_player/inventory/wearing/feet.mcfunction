@@ -1,3 +1,7 @@
+#
+# WORK IN PROGRESS
+#
+
 data modify storage gb:dump WearingCheck set from block ~ ~1 ~ Items[0]
 data remove storage gb:dump WearingCheck.Slot
 data modify storage gb:dump PreWearingCheck set from entity @a[tag=gb.selected,limit=1] Inventory[{Slot:100b}]

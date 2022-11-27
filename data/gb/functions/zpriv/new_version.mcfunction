@@ -1,3 +1,11 @@
+#
+# Update Message
+#
+# [load]
+# if new version loaded
+# as/at server
+#
+
 scoreboard players operation .current gb.version = .latest gb.version
 data merge storage gb:meta {Version:"b1.1"}
 

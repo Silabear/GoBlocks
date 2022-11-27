@@ -1,3 +1,10 @@
+#
+# Setup
+#
+# [load]
+# as/at server
+#
+
 function gb:zpriv/objectives
 function gb:zpriv/version
 schedule function gb:zpriv/30s 30s

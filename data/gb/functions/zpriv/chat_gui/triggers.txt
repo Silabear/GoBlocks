@@ -1,3 +1,10 @@
+#
+# List of all Triggers
+#
+# [gb.chatgui] [gb.block.call_function] [gb.block.function]
+#
+
+# gb.chatgui
 1 - Nothing
 2 - Player Event Main
 3 - On Damage Event
@@ -54,3 +61,15 @@
 62 - reset hunger
 63 - reset health
 64 - Random Player
+
+# gb.call_function_stuff
+1 - Nothing
+2..27 - Append char (A[2]..Z[27])
+28 - Remove Char (Backspace)
+29 - Clear
+
+# gb.function_stuff
+1 - Nothing
+2..27 - Append char (A[2]..Z[27])
+28 - Remove Char (Backspace)
+29 - Clear

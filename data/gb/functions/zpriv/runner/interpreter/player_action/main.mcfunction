@@ -1,3 +1,14 @@
+#
+# Run player action block
+#
+# [gb.runner] [gb.block] [gb.block.player_action]
+# if block to run is player action block
+# if .error is 0
+# if required inputs exist
+# as/at block marker of block to run
+#
+
+# Check type
 execute if entity @s[tag=gb.type.teleport] run function gb:zpriv/runner/interpreter/player_action/teleport
 execute if entity @s[tag=gb.type.launch_up] run function gb:zpriv/runner/interpreter/player_action/launch_up
 execute if entity @s[tag=gb.type.give_items] run function gb:zpriv/runner/interpreter/player_action/inv/give_items
