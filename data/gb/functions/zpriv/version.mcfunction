@@ -6,7 +6,7 @@
 #
 
 # latest version
-scoreboard players set .latest gb.version 2
+scoreboard players set .latest gb.version 3
 
 #load message
 execute if score .new_install gb.initcheck matches 1 run function gb:zpriv/oh_hi_there
