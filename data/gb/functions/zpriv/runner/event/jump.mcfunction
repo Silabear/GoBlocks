@@ -2,7 +2,7 @@
 # Runner - Jump
 #
 # [gb.runner]
-# if jumpp event triggered
+# if jump event triggered
 # as player that jumped
 # at server
 #
@@ -14,6 +14,6 @@ tag @s add gb.original
 # run
 execute as @e[type=marker,tag=gb.type.jump] at @s run function gb:zpriv/runner/start
 
-# remove selector
+# reset selector
 tag @s remove gb.selected
 tag @s remove gb.original

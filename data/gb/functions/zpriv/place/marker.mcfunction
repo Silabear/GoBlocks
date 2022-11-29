@@ -15,7 +15,7 @@ tag @e[type=marker,tag=gb.block.new,limit=1,sort=nearest] add gb.block
 data modify entity @e[type=marker,tag=gb.block.new,limit=1,sort=nearest] data.GoBlocks.Data.Tag set from entity @s data.GoBlocks.SpawnData.Tag
 data modify entity @e[type=marker,tag=gb.block.new,limit=1,sort=nearest] Tags append from entity @s data.GoBlocks.SpawnData.Tag
 
-# giv id
+# give id
 execute store result score @e[type=marker,tag=gb.block.new,limit=1,sort=nearest] gb.id run scoreboard players get .max gb.id
 scoreboard players add .max gb.id 1
 

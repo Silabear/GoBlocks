@@ -1,3 +1,11 @@
+#
+# Apply changes to selected block
+#
+# [gb.chat_gui]
+# if player selected something in chatgui
+# as/at marker of block to change
+#
+
 # reset barrel block
 setblock ~ ~1 ~ air replace
 
