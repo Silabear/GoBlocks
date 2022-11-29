@@ -14,6 +14,6 @@ tag @s add gb.original
 # run
 execute as @e[type=marker,tag=gb.type.drop_item] at @s run function gb:zpriv/runner/start
 
-# reset selecto
+# reset selector
 tag @s remove gb.selected
 tag @s remove gb.original
