@@ -5,7 +5,6 @@
 # as/at player that clicked block
 #
 
-
 tag @s add gb.temp
 
 # maximum steps
