@@ -6,4 +6,4 @@
 #
 
 # if @s last repeat segment from block
-execute positioned ~-2 ~ ~ unless entity @e[type=marker,tag=gb.repeat_segment,limit=1,distance=...1] run function gb:zpriv/check_if_the_end_segment_is_needed_anymore
+execute positioned ~-2 ~ ~ unless entity @e[type=marker,tag=gb.repeat_segment,limit=1,distance=..0.1] run function gb:zpriv/check_if_the_end_segment_is_needed_anymore

@@ -12,7 +12,8 @@ data remove entity @s Tags[]
 tag @s add gb.block
 tag @s add gb.block.player_event
 tag @s add gb.type.death
-data merge block ~ ~ ~-1 {Text1:'{"text":"","clickEvent":{"action":"run_command","value":"function gb:zpriv/chat_gui/player_event/main"}}',Text2:'{"text":"Player Event"}',Text3:'{"text":"ON DEATH"}'}
+data merge block ~ ~ ~-1 {Text3:'{"text":"ON DEATH"}'}
 
 # remove input
+scoreboard players set @s zgb.inputs_required 0
 setblock ~ ~1 ~ air

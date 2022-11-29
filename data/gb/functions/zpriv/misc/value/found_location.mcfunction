@@ -2,7 +2,7 @@
 # Create location item
 #
 # if location found
-# as/at server
+# as/at found location
 #
 
 # store location
