@@ -7,5 +7,5 @@
 #
 
 # remove segment
-kill @e[type=marker,tag=gb.if_segment,limit=1,distance=...1]
+kill @e[type=marker,tag=gb.if_segment,limit=1,distance=..0.1]
 fill ~ ~ ~ ~-1 ~ ~ air

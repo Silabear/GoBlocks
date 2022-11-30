@@ -12,7 +12,8 @@ data remove entity @s Tags[]
 tag @s add gb.block
 tag @s add gb.block.player_event
 tag @s add gb.type.give_item_to_player
-data merge block ~ ~ ~-1 {Text1:'{"text":"","clickEvent":{"action":"run_command","value":"function gb:zpriv/chat_gui/player_event/main"}}',Text2:'{"text":"Player Event"}',Text3:'{"text":"GIVE TO PLAYER"}'}
+data merge block ~ ~ ~-1 {Text3:'{"text":"GIVE TO PLAYER"}'}
 
 # remove input
+scoreboard players set @s zgb.inputs_required 0
 setblock ~ ~1 ~ air
