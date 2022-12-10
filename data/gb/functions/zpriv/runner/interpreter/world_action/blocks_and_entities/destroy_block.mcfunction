@@ -7,11 +7,11 @@
 #
 
 # get pos
-summon marker ~ ~ ~ {Tags:["gb.temp.destroy_block"]}
-data modify entity @e[type=marker,tag=gb.temp.destroy_block,limit=1] Pos set from block ~ ~1 ~ Items[0].tag.GoBlocks.Data
+summon minecraft:marker ~ ~ ~ {Tags:["gb.temp.destroy_block"]}
+data modify entity @e[type=minecraft:marker,tag=gb.temp.destroy_block,limit=1] Pos set from block ~ ~1 ~ Items[0].tag.GoBlocks.Data
 
 # set air
-execute at @e[type=marker,tag=gb.temp.destroy_block,limit=1] run setblock ~ ~ ~ air replace
+execute at @e[type=minecraft:marker,tag=gb.temp.destroy_block,limit=1] run setblock ~ ~ ~ minecraft:air replace
 
 # remove marker
-kill @e[type=marker,tag=gb.temp.destroy_block,limit=1]
+kill @e[type=minecraft:marker,tag=gb.temp.destroy_block,limit=1]

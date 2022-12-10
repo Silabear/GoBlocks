@@ -16,4 +16,4 @@ data merge block ~ ~ ~-1 {Text3:'{"text":"ON FIRST JOIN"}'}
 
 # remove input
 scoreboard players set @s zgb.inputs_required 0
-setblock ~ ~1 ~ air
+setblock ~ ~1 ~ minecraft:air

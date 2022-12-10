@@ -17,4 +17,4 @@ data merge block ~ ~ ~-1 {Text3:'{"text":"IS ON FIRE"}'}
 
 # remove input
 scoreboard players set @s zgb.inputs_required 0
-setblock ~ ~1 ~ air replace
+setblock ~ ~1 ~ minecraft:air replace

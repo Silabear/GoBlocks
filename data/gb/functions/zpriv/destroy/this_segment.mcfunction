@@ -8,4 +8,4 @@
 
 # remove segment
 kill @s
-fill ~ ~ ~ ~-1 ~ ~ air replace
+fill ~ ~ ~ ~-1 ~ ~ minecraft:air replace
