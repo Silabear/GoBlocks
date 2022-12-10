@@ -8,4 +8,4 @@
 #
 
 # summon marker
-execute positioned ~-2 ~ ~ run summon marker ~ ~ ~ {Tags:["gb.if_segment"]}
+execute positioned ~-2 ~ ~ run summon minecraft:marker ~ ~ ~ {Tags:["gb.if_segment"]}

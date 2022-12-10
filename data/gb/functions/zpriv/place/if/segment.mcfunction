@@ -8,4 +8,4 @@
 #
 
 # construct segment
-fill ~ ~ ~ ~-1 ~ ~ red_glazed_terracotta
+fill ~ ~ ~ ~-1 ~ ~ minecraft:red_glazed_terracotta

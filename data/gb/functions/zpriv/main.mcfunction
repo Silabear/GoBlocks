@@ -9,25 +9,25 @@
 execute as @a[scores={gb.chatgui=1..}] at @s run function gb:zpriv/chat_gui/trigger
 
 # Block Spawning
-execute as @e[type=marker,tag=gb.new_spawn] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function gb:zpriv/place/place
-execute as @e[type=marker,tag=gb.spawn.if_player] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function gb:zpriv/place/if/player
-execute as @e[type=marker,tag=gb.if_segment] at @s run function gb:zpriv/place/if/segment
+execute as @e[type=minecraft:marker,tag=gb.new_spawn] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function gb:zpriv/place/place
+execute as @e[type=minecraft:marker,tag=gb.spawn.if_player] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function gb:zpriv/place/if/player
+execute as @e[type=minecraft:marker,tag=gb.if_segment] at @s run function gb:zpriv/place/if/segment
 
-execute as @e[type=marker,tag=gb.spawn.repeat] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function gb:zpriv/place/repeat/repeat
-execute as @e[type=marker,tag=gb.repeat_segment] at @s run function gb:zpriv/place/repeat/segment
+execute as @e[type=minecraft:marker,tag=gb.spawn.repeat] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function gb:zpriv/place/repeat/repeat
+execute as @e[type=minecraft:marker,tag=gb.repeat_segment] at @s run function gb:zpriv/place/repeat/segment
 
 # Segment stuff
-execute as @e[type=marker,tag=gb.if_segment,tag=!gb.start_if] at @s run function gb:zpriv/if_segment
-execute as @e[type=marker,tag=gb.repeat_segment,tag=!gb.start_repeat] at @s run function gb:zpriv/repeat_segment
+execute as @e[type=minecraft:marker,tag=gb.if_segment,tag=!gb.start_if] at @s run function gb:zpriv/if_segment
+execute as @e[type=minecraft:marker,tag=gb.repeat_segment,tag=!gb.start_repeat] at @s run function gb:zpriv/repeat_segment
 
 # Block Breaking
-execute as @e[type=marker,tag=gb.block,tag=!gb.break_if,tag=!gb.break_repeat] at @s run function gb:zpriv/check_destroy
-execute as @e[type=marker,tag=gb.break_if] at @s run function gb:zpriv/check_destroy_if
-execute as @e[type=marker,tag=gb.break_repeat] at @s run function gb:zpriv/check_destroy_repeat
+execute as @e[type=minecraft:marker,tag=gb.block,tag=!gb.break_if,tag=!gb.break_repeat] at @s run function gb:zpriv/check_destroy
+execute as @e[type=minecraft:marker,tag=gb.break_if] at @s run function gb:zpriv/check_destroy_if
+execute as @e[type=minecraft:marker,tag=gb.break_repeat] at @s run function gb:zpriv/check_destroy_repeat
 
 # Location Checking
-execute as @e[type=snowball,nbt={Item:{tag:{GoBlocks:{Value:"location"}}}}] at @s run function gb:zpriv/misc/value/location
-execute as @e[type=item,nbt={Item:{tag:{GoBlocks:{Value:"location"}}}}] if data entity @s Thrower at @s run function gb:zpriv/misc/value/location_current
+execute as @e[type=minecraft:snowball,nbt={Item:{tag:{GoBlocks:{Value:"location"}}}}] at @s run function gb:zpriv/misc/value/location
+execute as @e[type=minecraft:item,nbt={Item:{tag:{GoBlocks:{Value:"location"}}}}] if data entity @s Thrower at @s run function gb:zpriv/misc/value/location_current
 
 # Number Checking
 scoreboard players enable @a gb.number

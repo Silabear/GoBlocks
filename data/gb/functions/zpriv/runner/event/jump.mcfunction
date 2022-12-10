@@ -12,7 +12,7 @@ tag @s add gb.selected
 tag @s add gb.original
 
 # run
-execute as @e[type=marker,tag=gb.type.jump] at @s run function gb:zpriv/runner/start
+execute as @e[type=minecraft:marker,tag=gb.type.jump] at @s run function gb:zpriv/runner/start
 
 # reset selector
 tag @s remove gb.selected

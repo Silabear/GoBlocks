@@ -8,4 +8,4 @@
 #
 
 # summon marker
-execute positioned ~-2 ~ ~ run summon marker ~ ~ ~ {Tags:["gb.repeat_segment"]}
+execute positioned ~-2 ~ ~ run summon minecraft:marker ~ ~ ~ {Tags:["gb.repeat_segment"]}

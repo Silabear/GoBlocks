@@ -7,7 +7,7 @@
 #
 
 # reset barrel block
-setblock ~ ~1 ~ air replace
+setblock ~ ~1 ~ minecraft:air replace
 
 # check trigger
 execute if score .selection gb.chatgui matches 3 run function gb:zpriv/chat_gui/player_event/hit/take_damage

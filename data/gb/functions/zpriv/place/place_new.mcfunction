@@ -14,5 +14,5 @@ function gb:zpriv/place/marker
 setblock ~-1 ~ ~ minecraft:end_rod[facing=west]
 
 # extend segments
-execute positioned ~ ~-1 ~ as @e[type=marker,tag=gb.if_segment,limit=1,distance=..0.1] run function gb:zpriv/extend_if
-execute positioned ~ ~-1 ~ as @e[type=marker,tag=gb.repeat_segment,limit=1,distance=..0.1] run function gb:zpriv/extend_repeat
+execute positioned ~ ~-1 ~ as @e[type=minecraft:marker,tag=gb.if_segment,limit=1,distance=..0.1] run function gb:zpriv/extend_if
+execute positioned ~ ~-1 ~ as @e[type=minecraft:marker,tag=gb.repeat_segment,limit=1,distance=..0.1] run function gb:zpriv/extend_repeat

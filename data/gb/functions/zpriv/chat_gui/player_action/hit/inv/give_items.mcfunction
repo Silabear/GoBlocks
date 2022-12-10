@@ -16,4 +16,4 @@ data merge block ~ ~ ~-1 {Text3:'{"text":"GIVE ITEMS"}'}
 
 # add input
 scoreboard players set @s zgb.inputs_required 1
-setblock ~ ~1 ~ barrel{CustomName:'{"text":"Inputs"}'}
+setblock ~ ~1 ~ minecraft:barrel{CustomName:'{"text":"Inputs"}'}

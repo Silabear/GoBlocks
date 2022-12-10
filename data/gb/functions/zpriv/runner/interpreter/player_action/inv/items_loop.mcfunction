@@ -7,9 +7,9 @@
 #
 
 # give item
-execute at @a[tag=gb.selected] run summon item ~ ~ ~ {Item:{id:"minecraft:stone",Count:1b},Tags:["gb.new_item"]}
-data modify entity @e[type=item,tag=gb.new_item,limit=1] Item set from storage gb:give_items Items[0]
-tag @e[type=item,tag=gb.new_item] remove gb.new_item
+execute at @a[tag=gb.selected] run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:stone",Count:1b},Tags:["gb.new_item"]}
+data modify entity @e[type=minecraft:item,tag=gb.new_item,limit=1] Item set from storage gb:give_items Items[0]
+tag @e[type=minecraft:item,tag=gb.new_item] remove gb.new_item
 data remove storage gb:give_items Items[0]
 
 # loop
